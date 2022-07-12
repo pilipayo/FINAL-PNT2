@@ -1,16 +1,20 @@
 <template>
    <div class="jumbotron">
     <h1> Final PAYO, MARIA DEL PILAR </h1>
+    <Aplicacion/>
   </div>
+  
+
+
 </template>
 
 <script>
-
+ import Aplicacion from './components/Aplicacion.vue'
 
 export default {
   name: 'App',
   components: {
-   
+   Aplicacion,
   }
 }
 </script>
